@@ -43,4 +43,11 @@ from project.calculator import Calculator
 >>> example.multiply(20)
 >>> example.memory
 60
+>>> example.reset()
+0
 ```
+## Credits
+The project was created by Egle Cepuliene.
+
+## License
+The project is is licensed under the MIT License (for more information see file LICENSE).
