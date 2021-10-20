@@ -8,6 +8,8 @@ class Calculator:
         self.memory = 0
 
     def do_function(self, number, function):
+        """This function passes the number in calculator memory as an argument in a given function.
+        The other number to be passed in a function is defined by the user."""
         try:
             self.memory = function(self.memory, number)
             return self.memory
